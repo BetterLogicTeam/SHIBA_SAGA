@@ -1,0 +1,140 @@
+.content_saga_right h1{
+    background: linear-gradient(0deg,rgb(252,100,0) 0%,rgb(253,162,0) 100%);
+    text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text-shine 12s ease-in-out infinite;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+
+.saga_landong_main{
+    padding-top: 4rem !important;
+}
+
+.content_saga_right h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: white !important;
+    margin-bottom: 1.7rem !important;
+}
+
+.content_saga_right h6 {
+    color: white !important;
+    line-height: 1.88;
+    font-size: 1.2rem;
+}
+
+
+.days{
+    
+    font-size: 4rem!important;
+    width: 7rem!important;
+    height: 7rem!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 1rem;
+    background: linear-gradient(0deg,rgb(252,100,0) 0%,rgb(253,162,0) 100%);
+    border-radius: 15px;
+    margin-bottom: 0.5rem;
+    background-size: 200% 200%;
+    color: white !important;
+    font-weight: 700;
+}
+
+.coutn_lebal{
+    color: #fff;
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center !important;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+
+.addres{
+    font-weight: 600;
+    color: white !important;
+}
+
+.right_btn{
+    border: 2px solid #FDA200;
+    /* position: relative;
+     */
+     cursor: pointer;
+     display: inline-block;
+     /* padding: 1rem 1.5rem; */
+     padding: 15px 35px ;
+     border-radius: 31px;
+     font-weight: 700;
+     font-size: 1rem;
+     color: #fff !important;
+    background: transparent;
+}
+
+
+
+.with_bg
+{
+    background-image: linear-gradient(to right,#E05900,#FDA200,#FDA200,#E05900) !important;
+    padding-top: 1.25rem !important;
+    padding-bottom: 1.25rem !important;
+    background-size: 250% 100% !important;
+    transition: all .4s ease-in-out !important;
+    transition: .4s ease-in-out infinite !important;
+    background-position: 0 0 ;
+    animation: animation 4s ease-in-out infinite !important;
+    /* transform: translateY(0) !important; */
+    border: none;
+}
+
+@keyframes animation {
+    0% {
+        background-position: 85% 100%;
+    }
+    50% {
+        background-position: -100% -85%;
+    }
+    100% {
+        background-position: 100% 75%;
+    }
+}
+
+
+.img_float{
+    animation: up_down 4s ease-in-out infinite;
+    width: 100%;
+}
+
+
+@keyframes up_down{
+    0% {
+        transform: translateY(0.5rem);
+    }
+    50% {
+        transform: translateY(2rem);
+    }
+    100% {
+        transform: translateY(0.5rem);
+    }
+}
+
+
+
+@media only screen and (max-width:600px){
+    .days{
+        width: 3rem !important;
+        height: 3rem !important;
+        font-size:  1rem !important;
+    }
+
+    .countdown{
+        justify-content: center !important;
+    }
+}

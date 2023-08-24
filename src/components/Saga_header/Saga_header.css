@@ -1,0 +1,67 @@
+.main_bg_saga{
+   background-image: url(../Assets/bg.webp);
+}
+
+
+.logo_area{
+    width: 100px;
+}
+
+.logo_area img {
+    width: 100%;
+}
+
+
+.header_btn_here{
+    padding: 1.125rem 3.125rem;
+    font-weight: 500;
+    border: 2px solid #FDA200;
+    background: transparent;
+    font-size: 1rem;
+    border-radius: 31px;
+    /* margin-top: -1.125rem; */
+    overflow: hidden;
+    /* margin-left: 3rem; */
+    color: #fff!important;
+}
+
+
+.header_links{
+    color: #fff !important;
+    font-weight: 500;
+    /* display: block; */
+    /* padding: 0.3125rem 0.75rem; */
+    padding: 10px 30px;
+    margin-right: 1.8rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.header_links:hover{
+    color: #fd8000 !important; 
+}
+
+
+.links_main{
+    margin-left: 3rem !important;
+}
+
+
+.nav_bar_fiexe{
+    position: sticky;
+    top: 0px;
+}
+
+
+
+@media only screen and (max-width:600px){
+ .main_bg_saga{
+    height: auto !important;
+ }   
+
+
+ .header_links{
+    text-align: center !important;
+ }
+}
+
